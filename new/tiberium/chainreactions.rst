@@ -43,7 +43,7 @@ Customizable Settings
 :tagdef:`[Tiberium]ExplosionWarhead=warhead`
   The warhead used to deliver the damage of the chain reaction effect, as well
   as the damage of the Tiberium Explosion effect. Defaults to
-  :tag:`[General]C4Warhead`.
+  :tag:`[CombatDamage]C4Warhead`.
   
   .. note:: \ :game:`Tiberian Sun`'s :tag:`C4Warhead` was :value:`HE`, which had
     \ :tag:`Spread` set. :game:`Red Alert 2` uses :value:`Super`, which does
