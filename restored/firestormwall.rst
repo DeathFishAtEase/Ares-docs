@@ -46,7 +46,7 @@ Global Settings
 
 :tagdef:`[CombatDamage]FirestormWarhead=Warhead`
   The warhead used by active Firestorm Walls to destroy objects. Cannot be
-  :value:`none`. Defaults to :tag:`[General]C4Warhead`.
+  :value:`none`. Defaults to :tag:`[CombatDamage]C4Warhead`.
 
 :tagdef:`[General]DamageToFirestormDamageCoefficient=double - multiplier`
   The multiplier for the damage dealt to active Firestorm Walls to convert
