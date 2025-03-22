@@ -1,3 +1,3 @@
-These are the source files of Ares's documentation, **not** the documentation itself.
+这些是 Ares 文档的源文件，**而非** 文档自身。
 
-Go to http://ares.strategy-x.com/documentation/ or check in your release package for the actual documentation.
+前往 http://ares.strategy-x.com/documentation/ 或检查你的发布版软件包以获取实际文档。
