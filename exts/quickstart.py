@@ -18,8 +18,7 @@ def depart_quickstart_node(self, node):
     self.depart_admonition(node)
 
 
-from sphinx.util.compat import Directive
-from sphinx.util.compat import make_admonition
+from docutils.parsers.rst import Directive
 
 class QuickstartDirective(Directive):
 
@@ -29,14 +28,22 @@ class QuickstartDirective(Directive):
     def run(self):
         env = self.state.document.settings.env
 
-        targetid = "quickstart-%d" % env.new_serialno('quickstart')
+        targetid = f"quickstart-{env.new_serialno('quickstart')}"
         targetnode = nodes.target('', '', ids=[targetid])
-        
-        self.options['class'] = [str('quickstart')]
-        self.options['id'] = None
 
-        ad = make_admonition(quickstart, self.name, ['Quickstart'], self.options,
-                             self.content, self.lineno, self.content_offset,
-                             self.block_text, self.state, self.state_machine)
+        # 创建自定义的quickstart节点
+        ad_node = quickstart()
+        ad_node['classes'] = self.options.get('class', []) + ['admonition']
 
-        return [targetnode] + ad
+        # 添加标题
+        title_text = 'Quickstart'
+        textnodes, messages = self.state.inline_text(title_text, self.lineno)
+        title = nodes.title(title_text, '', *textnodes)
+        ad_node += title
+
+        # 解析指令内容
+        content_node = nodes.container()
+        self.state.nested_parse(self.content, self.content_offset, content_node)
+        ad_node += content_node
+
+        return [targetnode, ad_node] + messages
