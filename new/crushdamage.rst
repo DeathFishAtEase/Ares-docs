@@ -24,6 +24,6 @@ comes at a customizable cost.
 
 :tagdef:`[TechnoType]CrushDamage.Warhead=Warhead`
   The warhead used to deal crush damage when this unit is crushed. Defaults to
-  :tag:`[General]C4Warhead`.
+  :tag:`[CombatDamage]C4Warhead`.
 
 .. versionadded:: 0.A

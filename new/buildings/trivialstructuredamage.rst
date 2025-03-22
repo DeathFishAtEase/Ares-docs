@@ -7,7 +7,7 @@ When a house is suffering low power, buildings can be made to degrade just like
 in the earlier games like :game:`Tiberian Dawn` and :game:`Red Alert`. The
 buildings lose health while they are unpowered, defined by an amount and an
 interval, down to a minimum health. The damage is always dealt by
-:tag:`[General]C4Warhead`.
+:tag:`[CombatDamage]C4Warhead`.
 
 In the earlier games, only buildings consuming power degraded one hitpoint per
 interval until reaching yellow health.
