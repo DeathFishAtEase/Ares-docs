@@ -1,13 +1,12 @@
-.. index:: Spawns; MissileSpawn on buildings
+.. index:: 建筑发射导弹子机
 
 =======================================
-:captiontag:`MissileSpawn` on Buildings
+建筑发射导弹子机
 =======================================
 
-Buildings were able to use :tag:`Spawns` logic only as long as the spawned
-:type:`AircraftType` had :tag:`MissileSpawn=no` set, thus could only spawn
-aircraft like the Destroyer and the Aircraft Carrier. If a building were to
-spawn a missile, the game would crash. :game:`Ares` fixed the missile handling
-and thus :tag:`MissileSpawn=yes` no longer crashes the game.
+原先建筑可以使用 :tag:`Spawns` 逻辑发射没有设置为 :tag:`Locomotor=Rocket` 的
+:type:`AircraftType`，就像驱逐舰和舰载机子机那种，
+否则会导致游戏崩溃。:game:`Ares` 修复了对导弹类的处理，
+因此 :tag:`Locomotor=Rocket` 不再会导致游戏崩溃。
 
 .. versionadded:: 1.0
