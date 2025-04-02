@@ -12,8 +12,7 @@ Foundation Generator </extras/custom_foundation.html>` developed by Renegade.
 When creating foundations, don't forget to create the outlines.
 
 Also, you most likely need to define a proper target cell for firing at the
-structure. See `TargetCoordOffset on ModEnc  <https://www.modenc.renegadeprojects.com/TargetCoordOffset>`_
-.
+structure. See `TargetCoordOffset on ModEnc  <https://www.modenc.renegadeprojects.com/TargetCoordOffset>`_.
 
 .. note:: War Factories are hard-coded to use the unit exit paths from the
   original game so changing the foundation for these buildings is not
