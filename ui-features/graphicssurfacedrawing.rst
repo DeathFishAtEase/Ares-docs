@@ -1,26 +1,27 @@
-Graphics / Surface Drawing
+图形／曲面的绘制
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning:: This is for advanced users only!
+.. warning:: 这仅适用于高级用户！
 
-In :file:`ares.ini` you can add the following section:
+在 :file:`ares.ini` 中你可以添加该节：
 
 ::
 
     [Graphics.Advanced]
     DirectX.Force= (hardware|emulation)
 
-While :value:`hardware` is the default, :value:`emulation` has the same effect
-as the special :file:`ddraw.dll` which made the games faster by not drawing
-the effects that aren't supported by software emulation.
+虽然默认为 :value:`hardware`，但 :value:`emulation`
+拥有与特殊版本 :file:`ddraw.dll`
+相同的效果，后者通过不绘制软件模拟不支持的效果来使游戏速度更快。
 
-.. note:: \ :value:`emulation` is not available on Windows Vista and later.
-  \ :game:`Ares` defaults to :value:`hardware` on such systems.
+.. note:: \ :value:`emulation` 无法用于 Windows Vista 及更高版本的系统。
+  \ :game:`Ares` 在这些系统上默认使用 :value:`hardware`。
 
-.. note:: \ :game:`Ares.ini` is not intended to be included or edited by mods,
-  as this file may include various other settings in future that the end-user
-  wishes to set themselves. Launch Base does not permit mods to include
-  \ :file:`ares.ini`, and also provides its own interface to allow the user to
-  modify the above graphical settings.
+.. note:: \ :game:`Ares.ini` 并未涉及为由 mod
+  包含或编辑，因为该文件在未来可能包含终端用户希望由他们自行设置的各种其他项目。
+
+  Launch Base 不允许 mod 包含
+  \ :file:`ares.ini`，并提供了一个它自己的界面来允许用户
+  修改上述图形设置。
 
 .. versionadded:: 0.1
