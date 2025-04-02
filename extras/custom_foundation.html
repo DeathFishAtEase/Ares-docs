@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -231,28 +231,28 @@
 <!-- #################################### HTML #################################### -->
 	<!-- Header -->
 	<div id="layout_header">
-		<span>Ares Custom Foundation Generator</span>
+		<span>Ares自定义面积生成器</span>
 	</div>
 	<!-- Base parameter block -->
 	<div id="layout_params">
-		<h1>Foundation</h1>
+		<h1>基础参数</h1>
 		<form id="widthheight" action="./">
 			<p>
-				<label for="name">Building (art) Name:</label>
-				<input type="text" name="name_n" id="name" value="CATEMP">
+				<label for="name">建筑(art中的)名称：</label>
+				<input type="text" name="name_n" id="name" value="AAFUMO">
 			</p>
 			<p>
-				<label for="width">X / Width:</label>
+				<label for="width">X坐标 / 宽度:</label>
 				<input type="text" name="width_n" id="width" value="5" maxlength="3">
 				&nbsp;&nbsp;&nbsp;
-				<label for="height">Y / Height:</label>
+				<label for="height">Y坐标 / 高度:</label>
 				<input type="text" name="height_n" id="height" value="5" maxlength="3">
 				&nbsp;&nbsp;&nbsp;
-				<input type="submit" name="set_params_n" id="set_params" value="Set Base Parameters">
+				<input type="submit" name="set_params_n" id="set_params" value="设置基本参数 ">
 			</p>
 		</form>
 		<!-- Warnings, these only pop up if there's stuff to complain about. -->
-		<p id="number_warning_x" style="display: none;">Warning! Your <em>width</em> is either <em>0 (zero)</em> or could <em>not</em> be <em>recognized</em> as a number! Please check your input.</p>
+		<p id="number_warning_x" style="display: none;">Warning! Your <em>width</em> is either <em>0 (zero)</em> or could <em>not</em> be <em>recognized</em> 作为数字！请检查输入。 .</p>
 		<p id="number_warning_y" style="display: none;">Warning! Your <em>height</em> is either <em>0 (zero)</em> or could <em>not</em> be <em>recognized</em> as a number! Please check your input.</p>
 		<p id="name_warning" style="display: none;">Warning! Your building/art <em>name</em> is either <em>empty or</em> contains <em>whitespace</em>. Please check your input.</p>
 		<p id="name_note" style="display: none;">Attention: Your building/art name is longer than 8 characters. While that is possible, it is non-standard and not recommended.</p>
@@ -260,26 +260,26 @@
 	
 	<!-- The canvas to "draw" on -->
 	<div id="layout_canvas">
-		<div id="hint">Select/unselect cells with the left mouse button, place outline cells with <em>[Ctrl]</em>+click.</div>
+		<div id="hint">使用鼠标左键 选择/取消选择 单元格 , 使用 <em>[Ctrl]</em> + 左键 放置轮廓单元格</div>
 		<!-- The corner labels are necessary for browsers who don't support rotation, and thus see the canvas 45° left -->
 		<div id="sidelabels" style="display: none;">
-			<div id="label_top">Top / 0</div>
-			<div id="label_right">Right / X</div>
+			<div id="label_top">顶部 / 0</div>
+			<div id="label_right">右侧 / X</div>
 			<table id="editor"><tr><td>dummy data to silence validator</td></tr></table>
-			<div id="label_bottom">Bottom</div>
-			<div id="label_left">Left / Y</div>
+			<div id="label_bottom">底部</div>
+			<div id="label_left">左侧 / Y</div>
 		</div>
 		<!-- Outlines & clear buttons -->
-		<div id="controlbuttons"><input type="button" name="outlnbtn_n" id="outlnbtn" value="Generate Outline">&nbsp;<input type="button" name="clearbtn_n" id="clearbtn" value="Clear Cells"></div>
+		<div id="controlbuttons"><input type="button" name="outlnbtn_n" id="outlnbtn" value="生成的建筑轮廓 ">&nbsp;<input type="button" name="clearbtn_n" id="clearbtn" value="透明轮廓"></div>
 	</div>
 	<!-- Code text and .10 outline warning -->
 	<div id="layout_code">
-		<h1>Code</h1>
-		<textarea id="code" readonly="readonly" cols="48" rows="16">Please enter name, width and height at the top and click "Set Base Parameters".</textarea>
-		<p id="warfac_note" style="display: none;"><strong>Note on War Factories and outlines:</strong> On War Factories, the game uses FoundationOutline.10 as the primary exit destination for newly spawned units, using the eight adjacent cells as alternative destinations. These cells basically form what the game sees as the factory's "bib", regardless of graphics.<br>You are seeing this message because you have no FoundationOutline.10 defined - if you are not making a foundation for a War Factory, this note can be ignored.<br>You can set FoundationOutline.10 manually by shift-clicking anywhere on the canvas.</p>
+		<h1>代码</h1>
+		<textarea id="code" readonly="readonly" cols="48" rows="16">请在顶端输入名称、宽度和高度然后单击“设置基本参数”</textarea>
+		<p id="warfac_note" style="display: none;"><strong>关于战争工厂与轮廓的注释：</strong><br>对于战争工厂，游戏会使用 FoundationOutline.10 作为一个新生成单位的首选退出位置，使用 8 个相邻单元格作为替代目的地。这些单元格基本上形成了游戏所认为的工厂 “Bib”，无论形状如何<br>您看到此消息是因为您没有定义 FoundationOutline.10<br> - 如果您并不是为战争工厂定义Foundation则可以忽略此注释。<br>您可以通过按住 [Shift] 点击画布上的任何位置来手动设置 FoundationOutline.10 </p>
 	</div>
 
-	<div id="layout_footer">Written 29.09.09 by Renegade</div>
+	<div id="layout_footer">制作 29.09.09 by Renegade   汉化 01.12.24 By DeathFish</div>
 	
 	<!-- #################################### JAVASCRIPT #################################### -->
 	<!-- <script type="text/javascript" src="http://www.google.com/jsapi"></script> -->
@@ -317,13 +317,13 @@
 			$("#widthheight").submit(); // trigger event to create default canvas
 			$("#clearbtn").click(function() {updateCode(true);});
 			$("#outlnbtn").click(generateOutline);
-			$("#code").val("Please enter name, width and height at the top and click \"Set Base Parameters\"."); // FF saves the value over refreshes, leaving old foundation data with empty canvases without this.
+			$("#code").val("请在顶端输入名称、宽度和高度然后点击“设置基本参数”"); // FF saves the value over refreshes, leaving old foundation data with empty canvases without this.
 		}
 	
 		$(document).ready(setup);
 	
 		// When set, this stores the first three lines of the code: building name, width and height
-		var baseParams = "Base parameters empty";
+		var baseParams = "基本参数为空";
 		
 		// This function validates the name, width and height input parameters and returns true if they're in order.
 		// If there's a problem, it unveils warnings and returns false.
