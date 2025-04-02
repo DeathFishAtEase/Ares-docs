@@ -84,9 +84,11 @@ Non-Malicious Warheads
   (:value:`EVA_OreMinerUnderAttack`). No other EVA messages are suppressed. For
   example, if a warhead's purpose is to spread ore dealing damage as a side
   effect only you can use :tag:`Malicious=no` to disable unreasonable EVA attack
-  warnings for ore miners. Defaults to :value:`yes`.
+  warnings for ore miners. EMP warheads also respect this setting. Defaults to
+  :value:`yes`.
 
 .. versionadded:: 0.2
+.. versionchanged:: 3.0
 
 
 Prevent scattering
