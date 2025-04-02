@@ -209,6 +209,9 @@ Intelligence
   building and the information of the unit that is being produced will be
   displayed over the building.
 
+  As long as the current production is shown, no other information like power
+  and money are displayed.
+
   * :tag:`Fake=yes` buildings will show the text :value:`TXT_FAKE` and reveal
     their true name in tooltips (see :doc:`EnemyUIName </new/enemyuiname>`)
   * :tag:`Power` greater than :value:`0` buildings will reveal the power level

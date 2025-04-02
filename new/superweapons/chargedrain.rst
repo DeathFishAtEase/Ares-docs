@@ -17,8 +17,8 @@ only apply for super weapons with :tag:`UseChargeDrain=yes` set.
   Whether this super weapon can be stopped when active. Otherwise clicks on the
   super weapon's cameo are ignored. Defaults to :value:`no`.
 
-.. note:: Note that :tag:`UseChargeDrain` is supported for the Firewall super
-  weapon only. Using it along with any other super weapon types it will lead to
-  unexpected results.
+.. note:: Note that :tag:`UseChargeDrain` is supported for the Firestorm and
+  Battery super weapon only. Using it on any other super weapons types will lead
+  to unexpected results.
 
 .. versionadded:: 0.2
