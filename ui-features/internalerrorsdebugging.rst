@@ -1,60 +1,60 @@
 .. index::
-  Debugging; Improved Internal Error handling
-  Debugging; Logs to assist with debugging mods and Ares
+  调试；改进了 Internal Error 处理
+  调试；用于协助调试 mod 与 Ares 的日志
 
-Internal Errors / Debugging
+内部错误／调试
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When an Internal Error occurs, the :file:`except.txt` file that is produced has
-been modified so as to output more information that is both relevant to mod
-authors, and also relevant to us, the developers, when debugging the changes and
-additions introduced by :game:`Ares`.
+当发生一个 Internal Error 时所生成的 :file:`except.txt`
+文件现已被修改以便输出更多与 mod
+作者相关以及对我们这些开发者在调试
+:game:`Ares` 引入的更改与新增内容时有用的信息。
 
-:file:`except.txt` may include a timestamp in the filename to prevent an
-existing :file:`except.txt` file being overwritten.
+:file:`except.txt` 可能会在文件名中包含时间戳以防止现有的
+:file:`except.txt` 文件被覆盖。
 
-:game:`Ares` will give you the option to produce a crash dump file to assist in
-determining the cause of the error. This file will be stored in a Debug folder
-within the main game directory. Note that the crash dump file is very large and
-may only be readable by the :game:`Ares` developers. Like :file:`except.txt`,
-this file will include a timestamp in the filename.
+:game:`Ares` 将会为你提供一个生成崩溃转储文件的选项以辅助确定错误原因。该文件将存储在游戏根目录的
+Debug 文件夹中。注意崩溃转储文件体积非常庞大并且或许仅可由
+:game:`Ares` 开发者解读。与
+:file:`except.txt`
+类似，该文件的文件名中将会包含时间戳。
 
-If you have turned on debug logging (see :doc:`Command Line Arguments
-</ui-features/commandlinearguments>` and :ref:`Debug Logging <debug-logging>`)
-then the game will produce a :file:`debug.log` file in the aforementioned Debug
-folder. Like :file:`except.txt`, this file will include a timestamp in the
-filename. The log file may contain useful information for helping diagnose
-problems with your mod or :game:`Ares` itself.
+如果你已经启用了调试日志记录（见 :doc:`命令行参数</ui-features/commandlinearguments>`
+与 :ref:`调试日志记录 <debug-logging>`）那么游戏将会在上述 Debug 文件夹中生成一个
+:file:`debug.log` 文件。与
+:file:`except.txt` 类似，该文件的文件名中将会包含时间戳。日志文件可能包含有助于诊断你的
+mod 或
+:game:`Ares` 自身问题的有用信息。
 
-In the event of an Internal Error, :game:`Ares` can sometimes tell you what
-caused the error. For example:
+当发生一个 Internal Error 时，:game:`Ares`
+有时可以告诉你错误的原因。例如：
 
 .. image:: /images/crash0.png
-  :alt: Screenshot of an Ares Internal Error dialog showing the cause of an
+  :alt: 一个显示了原因的 Ares Internal Error 对话框的截图，显示
+    Internal Error 的原因
+  :align: center
+
+这里，:game:`Ares` 可以确定错误的原因。
+
+.. image:: /images/crash1.png
+  :alt: Ares Internal Error 对话框的截图，显示未解决的
     Internal Error
   :align: center
 
-Here, :game:`Ares` can determine what caused the error.
-
-.. image:: /images/crash1.png
-  :alt: Screenshot of an Ares Internal Error dialog showing an unsolved Internal
-    Error
-  :align: center
-
-Here, the error cannot be figured out - :game:`Ares` offers to create a full
-crash report.
+这里，无法确定错误的原因——:game:`Ares`
+提议创建一个完整的崩溃报告。
 
 .. image:: /images/crash2.png
-  :alt: Screenshot of an Ares Internal Error dialog after recording an Internal
-    Error
+  :alt: Ares Internal Error 对话框的截图，在记录
+    Internal Error 后
   :align: center
 
-The crash report has been generated. :game:`Ares` will close after showing this
-message.
+崩溃报告已经生成。:game:`Ares`
+将在显示这条消息后关闭。
 
-Some potential errors may now be triggered when loading rather than waiting for
-the error to crop up in game. Critical errors occur always, less critical errors
-occur only if you have used the :doc:`-STRICT command line argument
-</ui-features/commandlinearguments>`.
+现在一些潜在的错误可以在加载时即被触发而非等到游戏内再突然出现。严重的错误总是会出现，不那么严重的错误只有在你使用了
+:doc:`-STRICT
+命令行参数</ui-features/commandlinearguments>`
+时才会出现。
 
 .. versionadded:: 0.1
