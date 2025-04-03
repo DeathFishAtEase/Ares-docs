@@ -29,7 +29,7 @@ customizable :doc:`Mouse Cursor </new/mousecursors>`.
   :tag:`TechLevel=-1` :tag:`CanBeOccupied=yes` buildings, to :value:`no`
   otherwise.
 
-  .. note: By default, unbuildable occupiable structures cannot be sabotaged.
+  .. note:: By default, unbuildable occupiable structures cannot be sabotaged.
     This prevents saboteurs from blowing up civilian structures when selected in
     a group with occupiers. This default value might change in the future.
 

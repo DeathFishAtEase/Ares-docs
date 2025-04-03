@@ -17,6 +17,6 @@ kept until the occupants are ejected again.
 Breaking alliances is not supported. You have to ensure that alliances involving
 player-controlled houses when there are occupiers are persistent.
 
-.. note: This setting will be made optional in a future release.
+.. note:: This setting will be made optional in a future release.
 
 .. versionadded:: 3.0
