@@ -27,3 +27,10 @@ div.quickstart p.admonition-title {
     font-weight: bold;
 }
 
+div.body {
+    max-width: 8000px;
+}
+
+body div.admonition > :last-child {
+    margin-bottom: 6px;
+}
