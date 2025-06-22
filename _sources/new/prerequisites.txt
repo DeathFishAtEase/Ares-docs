@@ -172,7 +172,7 @@ For example:
 
     [TechnoType]
     ...
-    Prerequisites=NAVALYARD
+    Prerequisite=NAVALYARD
     ...
 
 
