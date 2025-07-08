@@ -224,7 +224,7 @@ provided example at the end of the following flag list instead.
   :tag:`LaserInnerColor`, :tag:`LaserOuterColor`, :tag:`LaserOuterSpread` and
   :tag:`LaserThickness`) are also respected. If no support weapon is specified
   then the traditional support laser will be drawn (:tag:`IsLaser=yes`,
-  :tag:`LaserDuration=[General]PrismSupportDuration`, :tag:`IsHouseColor=yes`,
+  :tag:`LaserDuration=`:tag:`[General]PrismSupportDuration`, :tag:`IsHouseColor=yes`,
   :tag:`LaserThickness=3`).
 :tagdef:`[PrismForwarding.SupportWeapon]IsElectricBolt=boolean`
   Specifies whether or not an electric bolt should be drawn when supporting
