@@ -8,7 +8,7 @@ Bolt Coloring
 
 The default colors for electric bolts are taken from the theater palette. The
 third is always the color at index 15, while both others use the color at index
-10 (or 5, if :tagdef:`IsAlternateColor=yes`).
+10 (or 5, if :tag:`[Weapon]IsAlternateColor=yes`).
 
 :tagdef:`[Weapon]Bolt.Color1=R,G,B`
 
