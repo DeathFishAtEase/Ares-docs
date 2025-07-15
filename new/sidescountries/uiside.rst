@@ -12,8 +12,24 @@ Sidebar
   The MIX file number to use for the sidebar (e.g. :value:`1` for the Allied
   sidec01.mix, :value:`2` for the Soviet sidec02.mix).
 :tagdef:`[Side]Sidebar.YuriFileNames=boolean`
-  Whether or not to use the Yuri sidebar file names (sidec02md.mix and the
-  Yuri-specific files within that MIX).
+  Whether or not to use the Yuri sidebar file names (file naming rule similar to the original Yuri's :file:`sidec02md.mix`).
+
+.. note:: This feature primarily serves independent palettes. You could also place :file:`radary.shp` directly into :file:`sidec0#.mix` without creating an additional :file:`sidec0#md.mix`.
+
+File Name Comparison Table
+`````````````````````````````
+  .. table::
+
+    ================================  ==================================================================  ================================================
+    File Purpose                      Original Naming Rule                                                Yuri-style Naming Rule
+    ================================  ==================================================================  ================================================
+    :value:`Radar Animation`          :file:`radar.shp`                                                   :file:`radar`:value:`y`:file:`.shp`
+    :value:`Radar Palette`            :file:`sidebar.pal` (Many other files also share this palette)      :value:`radaryuri.pal`
+    :value:`Background - Large`       :file:`bkgdlg.shp`                                                  :file:`bkgdlg`:value:`y`:file:`.shp`
+    :value:`Background - Medium`      :file:`bkgdmd.shp`                                                  :file:`bkgdmd`:value:`y`:file:`.shp`
+    :value:`Background - Small`       :file:`bkgdsm.shp`                                                  :file:`bkgdsm`:value:`y`:file:`.shp`
+    :value:`Background Palette`       :file:`uibkgd.pal`                                                  :file:`uibkgd`:value:`y`:file:`.pal`
+    ================================  ==================================================================  ================================================
 
 .. versionadded:: 0.1
 
