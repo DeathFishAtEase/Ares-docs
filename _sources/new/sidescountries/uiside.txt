@@ -12,8 +12,30 @@ Sidebar
   The MIX file number to use for the sidebar (e.g. 1 for the Allied
   sidec01.mix, 2 for the Soviet sidec02.mix).
 [Side]Sidebar.YuriFileNames=boolean
-  Whether or not to use the Yuri sidebar file names (sidec02md.mix and the
-  Yuri-specific files within that MIX).
+  Whether or not to use the Yuri sidebar file names
+  (file naming rule similar to the original Yuri's sidec02md.mix).
+
+ This feature primarily serves independent palettes. You could also place radary.shp directly into sidec0#.mix without creating an additional sidec0#md.mix.
+
+File Name Comparison Table
+
+  
+
+                             
+    File Purpose             Original Naming Rule                                        Yuri-style Naming Rule
+                             
+    Radar Animation          radar.shp                                                   radary.shp
+    Radar Palette            sidebar.pal (Many other files also share this palette)      radaryuri.pal
+    Background - Large       bkgdlg.shp                                                  bkgdlgy.shp
+    Background - Medium      bkgdmd.shp                                                  bkgdmdy.shp
+    Background - Small       bkgdsm.shp                                                  bkgdsmy.shp
+    Background Palette       uibkgd.pal                                                  uibkgdy.pal
+                             
+
+
+File Name Comparison Table
+
+
 
  0.1
 

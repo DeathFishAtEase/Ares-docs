@@ -97,9 +97,51 @@
 <dd>The MIX file number to use for the sidebar (e.g. <cite>1</cite> for the Allied
 sidec01.mix, <cite>2</cite> for the Soviet sidec02.mix).</dd>
 <dt><span><code class="definition docutils literal"><span class="pre">[Side]►Sidebar.YuriFileNames=</span></code><span class="type definition"> (boolean)</span></span></dt>
-<dd>Whether or not to use the Yuri sidebar file names (sidec02md.mix and the
-Yuri-specific files within that MIX).</dd>
+<dd>Whether or not to use the Yuri sidebar file names (file naming rule similar to the original Yuri's <code class="file docutils literal notranslate"><span class="pre">sidec02md.mix</span></code>).
+</dd>
 </dl>
+<div class="admonition note">
+  <p class="first admonition-title">Note</p>
+<p>This feature primarily serves independent palettes. You could also place <code class="file docutils literal notranslate"><span class="pre">radary.shp</span></code> directly into <code class="file docutils literal notranslate"><span class="pre">sidec0#.mix</span></code> without creating an additional <code class="file docutils literal notranslate"><span class="pre">sidec0#md.mix</span></code>.</p>
+</div>
+<section id="file-name-comparison-table">
+<h3>File Name Comparison Table<a class="headerlink" href="#file-name-comparison-table" title="Link to this heading">¶</a></h3>
+<blockquote>
+<div><table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>File Purpose</p></th>
+<th class="head"><p>Original Naming Rule</p></th>
+<th class="head"><p>Yuri-style Naming Rule</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><cite>Radar Animation</cite></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">radar.shp</span></code></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">radar</span></code><cite>y</cite><code class="file docutils literal notranslate"><span class="pre">.shp</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><cite>Radar Palette</cite></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">sidebar.pal</span></code> (Many other files also share this palette)</p></td>
+<td><p><cite>radaryuri.pal</cite></p></td>
+</tr>
+<tr class="row-even"><td><p><cite>Background - Large</cite></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">bkgdlg.shp</span></code></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">bkgdlg</span></code><cite>y</cite><code class="file docutils literal notranslate"><span class="pre">.shp</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><cite>Background - Medium</cite></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">bkgdmd.shp</span></code></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">bkgdmd</span></code><cite>y</cite><code class="file docutils literal notranslate"><span class="pre">.shp</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><cite>Background - Small</cite></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">bkgdsm.shp</span></code></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">bkgdsm</span></code><cite>y</cite><code class="file docutils literal notranslate"><span class="pre">.shp</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><cite>Background Palette</cite></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">uibkgd.pal</span></code></p></td>
+<td><p><code class="file docutils literal notranslate"><span class="pre">uibkgd</span></code><cite>y</cite><code class="file docutils literal notranslate"><span class="pre">.pal</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
 <div class="versionadded">
 <p><span class="versionmodified">New in version 0.1.</span></p>
 </div>
