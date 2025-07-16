@@ -834,7 +834,7 @@
    y="-586.27216"><tspan
    style="fill:#e600ae;font-family:monospace"
    sodipodi:role="inline"
-   id="tspan9252">TechLevel=-1</tspan> （仅适用于人类玩家）</text>
+   id="tspan9252">TechLevel=-1</tspan>（仅适用于人类玩家）</text>
 
 
 
@@ -943,10 +943,10 @@
    style="fill:#e600ae;font-family:monospace">[AI]</tspan>►<tspan
    id="flag_7"
    sodipodi:role="inline"
-   style="fill:#e600ae;font-family:monospace">BuildTech</tspan>同时拥有一个 <tspan
+   style="fill:#e600ae;font-family:monospace">BuildTech</tspan> 同时 <tspan
    id="flag_8"
    sodipodi:role="inline"
-   style="fill:#e600ae;font-family:monospace">超级武器</tspan>,</text>
+   style="fill:#e600ae;font-family:monospace">SuperWeapon</tspan> 填写了一个有效的超级武器</text>
 
 
 
@@ -1052,7 +1052,7 @@
    id="tspan3923">Prerequisite.List#</tspan> 这里的 # 代表从 1 到 <tspan
    style="fill:#011eff;font-family:monospace"
    sodipodi:role="inline"
-   id="flag_15">Prerequisite.Lists</tspan></text>
+   id="flag_15">Prerequisite.Lists</tspan> 的值</text>
 
 
 
