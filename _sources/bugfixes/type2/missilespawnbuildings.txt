@@ -5,9 +5,9 @@ MissileSpawn on Buildings
 
 
 Buildings were able to use Spawns logic only as long as the spawned
-AircraftType had Locomotor≠{B7B49766-E576-11d3-9BD9-00104B972FE8} set, thus could only spawn
+AircraftType was not listed in V3RocketType or DMislType or CMislType, thus could only spawn
 aircraft like the Destroyer and the Aircraft Carrier. If a building were to
 spawn a missile, the game would crash. Ares fixed the missile handling
-and thus Locomotor={B7B49766-E576-11d3-9BD9-00104B972FE8} no longer crashes the game.
+and thus it no longer crashes the game.
 
  1.0

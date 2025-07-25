@@ -79,10 +79,10 @@
   <div class="section" id="missilespawn-on-buildings">
 <span id="index-0"></span><h1><span><span class="type">MissileSpawn</span></span> on Buildings<a class="headerlink" href="#missilespawn-on-buildings" title="Permalink to this headline">¶</a></h1>
 <p>Buildings were able to use <span><code class="docutils literal"><span class="pre">Spawns</span></code></span> logic only as long as the spawned
-<span class="type docutils literal">AircraftType</span> had <span><code class="docutils literal"><span class="pre">Locomotor≠{B7B49766-E576-11d3-9BD9-00104B972FE8}</span></code></span> set, thus could only spawn
+<span class="type docutils literal">AircraftType</span> was not listed in  <span><code class="docutils literal"><span class="pre">V3RocketType</span></code></span> or  <span><code class="docutils literal"><span class="pre">DMislType</span></code></span> or  <span><code class="docutils literal"><span class="pre">CMislType</span></code></span>, thus could only spawn
 aircraft like the Destroyer and the Aircraft Carrier. If a building were to
 spawn a missile, the game would crash. <span class="game docutils literal">Ares</span> fixed the missile handling
-and thus <span><code class="docutils literal"><span class="pre">Locomotor={B7B49766-E576-11d3-9BD9-00104B972FE8}</span></code></span> no longer crashes the game.</p>
+and thus it no longer crashes the game.</p>
 <div class="versionadded">
 <p><span class="versionmodified">New in version 1.0.</span></p>
 </div>
