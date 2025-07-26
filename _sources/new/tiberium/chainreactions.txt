@@ -43,7 +43,7 @@ Customizable Settings
 [Tiberium]ExplosionWarhead=warhead
   The warhead used to deliver the damage of the chain reaction effect, as well
   as the damage of the Tiberium Explosion effect. Defaults to
-  [General]►C4Warhead.
+  [CombatDamage]►C4Warhead.
   
    \ Tiberian Sun's C4Warhead was HE, which had
     Spread set. Red Alert 2 uses Super, which does

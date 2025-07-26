@@ -46,7 +46,7 @@ Global Settings
 
 [CombatDamage]FirestormWarhead=Warhead
   The warhead used by active Firestorm Walls to destroy objects. Cannot be
-  none. Defaults to [General]►C4Warhead.
+  none. Defaults to [CombatDamage]►C4Warhead.
 
 [General]DamageToFirestormDamageCoefficient=double - multiplier
   The multiplier for the damage dealt to active Firestorm Walls to convert

@@ -24,6 +24,6 @@ comes at a customizable cost.
 
 [TechnoType]CrushDamage.Warhead=Warhead
   The warhead used to deal crush damage when this unit is crushed. Defaults to
-  [General]►C4Warhead.
+  [CombatDamage]►C4Warhead.
 
  0.A
