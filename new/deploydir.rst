@@ -14,6 +14,6 @@ having a :tag:`DeployingAnim` do not turn needlessly.
 :tagdef:`[TechnoType]DeployDir=integer - facing`
   The direction a unit will face when deploying. Valid values range from
   :value:`0` for north to :value:`7` for north west. Defaults to
-  :tag:`[General]DeployDir`.
+  :tag:`[AudioVisual]DeployDir`.
 
 .. versionadded:: 2.0
