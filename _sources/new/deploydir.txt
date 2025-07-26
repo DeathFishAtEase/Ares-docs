@@ -14,6 +14,6 @@ having a DeployingAnim do not turn needlessly.
 [TechnoType]DeployDir=integer - facing
   The direction a unit will face when deploying. Valid values range from
   0 for north to 7 for north west. Defaults to
-  [General]►DeployDir.
+  [AudioVisual]►DeployDir.
 
  2.0
