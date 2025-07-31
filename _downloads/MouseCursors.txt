@@ -75,5 +75,5 @@ NoTogglePower=384,1,0,-1,-1,Center,Middle
 InfantryHeal=355,1,0,-1,-1,Center,Middle
 UnitRepair=150,20,4,-1,-1,Center,Middle
 TakeVehicle=89,10,4,100,10,Center,Middle
-Sabotage=89,10,4,100,10,Center,Middle
+Sabotage=309,10,4,309,10,Center,Middle
 RepairTrench=150,20,4,-1,-1,Center,Middle
