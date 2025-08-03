@@ -1,14 +1,11 @@
 .. index:: Infantry; VehicleThief logic without workarounds
 
 =============
-Vehicle Thief
+偷车贼
 =============
 
-With :game:`Ares` you can create vehicle thieves like the Mutant Hijacker from
-:game:`Tiberian Sun` without having to use :tag:`Thief=yes`,
-:tag:`Infiltrate=yes` or :tag:`Agent=yes` also. The logic was amended to allow
-for some customization the original game didn't support.
+使用 :game:`Ares` 你可以创建一个像 :game:`Tiberian Sun` 中的 `Mutant Hijacker <https://cnc.fandom.com/wiki/Mutant_hijacker>`_ 而无需额外拥有 :tag:`Thief=yes`、:tag:`Infiltrate=yes` 或 :tag:`Agent=yes`。 这个逻辑已经为了一些原版游戏中不支持的自定义项进行了魔改。
 
-See the :doc:`/new/hijackers` section for details.
+详情参见 :doc:`/new/hijackers` 一节。
 
 .. versionadded:: 0.2
