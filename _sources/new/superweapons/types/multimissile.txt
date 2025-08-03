@@ -48,7 +48,7 @@ Other changes:
 Use WeaponType to control the properties of the upward flying animation
 (especially its Projectile). Ares respects the WeaponType
 for every nuke, it will not use the WeaponType of the first superweapon
-with Type=Nuke like Yuri's Revenge did. Also mind to set
+with Type=MultiMissile like Yuri's Revenge did. Also mind to set
 NukeMaker=yes on the WeaponType, otherwise the nuke will not come
 down again.
 
