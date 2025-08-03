@@ -48,7 +48,7 @@ Other changes:
 Use :tag:`WeaponType` to control the properties of the upward flying animation
 (especially its :tag:`Projectile`). :game:`Ares` respects the :tag:`WeaponType`
 for every nuke, it will not use the :tag:`WeaponType` of the first superweapon
-with :tag:`Type=Nuke` like :game:`Yuri's Revenge` did. Also mind to set
+with :tag:`Type=MultiMissile` like :game:`Yuri's Revenge` did. Also mind to set
 :tag:`NukeMaker=yes` on the :tag:`WeaponType`, otherwise the nuke will not come
 down again.
 
