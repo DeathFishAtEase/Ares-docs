@@ -104,16 +104,16 @@ Defaults to <cite>yes</cite>.</dd>
 </div>
 <div class="section" id="spinning">
 <span id="index-1"></span><h2>Spinning<a class="headerlink" href="#spinning" title="Permalink to this headline">¶</a></h2>
-<p>Aircraft that is going to crash starts to spin uncontrollably. For larger planes
+<p>Units that have <span><code class="docutils literal"><span class="pre">Locomotor=Fly</span></code></span> and are going to crash start to spin uncontrollably. For larger planes
 this can look silly and <span class="game docutils literal">Ares</span> adds an option for this to turn it off.</p>
 <dl class="docutils">
-<dt><span><code class="definition docutils literal"><span class="pre">[AircraftType]►CrashSpin=</span></code><span class="type definition"> (boolean)</span></span></dt>
-<dd><p class="first">Whether the aircraft should spin when crashing, opposed to gliding down to the
+<dt><span><code class="definition docutils literal"><span class="pre">[TechnoType]►CrashSpin=</span></code><span class="type definition"> (boolean)</span></span></dt>
+<dd><p class="first">Whether the unit should spin when crashing, opposed to gliding down to the
 ground. Defaults to <cite>yes</cite>.</p>
 <div class="last admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">This setting only works for aircraft. <span><code class="docutils literal"><span class="pre">JumpJet=yes</span></code></span>
-<span class="type docutils literal">VehicleType</span>s do not support it.</p>
+<p class="last">This setting only works for units with <span><code class="docutils literal"><span class="pre">Locomotor=Fly</span></code></span>.
+Units using <span><code class="docutils literal"><span class="pre">Locomotor=Jumpjet</span></code></span> do not support it.</p>
 </div>
 </dd>
 </dl>
