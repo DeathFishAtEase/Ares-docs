@@ -24,14 +24,14 @@ adds support for :tag:`Crashable=no` and aircraft.
 Spinning
 --------
 
-Aircraft that is going to crash starts to spin uncontrollably. For larger planes
-this can look silly and :game:`Ares` adds an option for this to turn it off.
+Units that have :tag:`Locomotor=Fly` and are going to crash start to spin uncontrollably.
+For larger planes this can look silly and :game:`Ares` adds an option for this to turn it off.
 
-:tagdef:`[AircraftType]CrashSpin=boolean`
-  Whether the aircraft should spin when crashing, opposed to gliding down to the
+:tagdef:`[TechnoType]CrashSpin=boolean`
+  Whether the unit should spin when crashing, opposed to gliding down to the
   ground. Defaults to :value:`yes`.
 
-  .. note:: This setting only works for aircraft. :tag:`JumpJet=yes`
-    \ :type:`VehicleType`\ s do not support it.
+  .. note:: This setting only works for units with :tag:`Locomotor=Fly`.
+    \ Units using :tag:`Locomotor=Jumpjet` do not support it.
 
 .. versionadded:: 0.6
