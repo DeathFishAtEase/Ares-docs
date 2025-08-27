@@ -42,7 +42,7 @@ EMPulse specific tags:
 
 :tagdef:`[SuperWeapon]EMPulse.Cannons=list of BuildingType`
   The building types considered to check the range and to fire. If the list is
-  empty, all buildings with :tag:`EMPulseCannon=yes` are considered. All
+  empty, all buildings to which the super weapon is attached are considered. All
   buildings are required to have a primary weapon. Defaults to :value:`none`.
 
 :tagdef:`[SuperWeapon]EMPulse.TargetSelf=boolean`
