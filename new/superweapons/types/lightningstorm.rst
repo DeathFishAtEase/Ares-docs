@@ -33,7 +33,7 @@ Lightning Storm specific tags:
   indefinite duration. Defaults to :tag:`[General]LightningStormDuration`.
 :tagdef:`[SuperWeapon]Lightning.RadarOutage=integer - frames`
   The number of frames radars are jammed for players defined by
-  :tag:`SW.AffectsHouse`. Defaults to :tag:`[General]LightningStormDuration`.
+  :tag:`Lightning.RadarOutageAffects`. Defaults to :tag:`[General]LightningStormDuration`.
 :tagdef:`[SuperWeapon]Lightning.RadarOutageAffects=enumeration`
   Specifies the houses affected by radar outage. Defaults to :value:`enemies`.
 :tagdef:`[SuperWeapon]Lightning.HitDelay=integer - frames`
