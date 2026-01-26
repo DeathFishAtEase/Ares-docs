@@ -106,7 +106,7 @@ their health and their experience unchanged.
 Building-specific
 
 
-Buildings can spawn the owning side's Engineers in addition to
+Buildings can spawn the owning side's Engineer in addition to
 Crew and Technician. The number of crew members is determined by
 the refund price of the building divided by the side's SurvivorDivisor.
 If the building has been captured, the divisor is double, and thus the number of
