@@ -49,7 +49,7 @@ weapon with :tag:`Type=IronCurtain`, then check whether it was either ready or
 almost charged. If that was not the case, the script action failed.
 
 :game:`Ares` will instead check all super weapon with
-:tag:`SW.AITargetingMode=IronCurtain` and will fire the first one that is fully
+:tag:`SW.AITargeting=IronCurtain` and will fire the first one that is fully
 charged, or wait, if any is at least almost charged. The script will fail
 otherwise.
 
