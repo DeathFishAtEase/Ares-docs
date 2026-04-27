@@ -451,8 +451,8 @@ Other changes:
 
   The AI supports other Iron Curtains and it might now use super weapons with
   :tag:`Type=IronCurtain` it has not used before, because of the changed default
-  for :tag:`SW.AITargetingMode`. To restore previous behavior, manually set
-  :tag:`SW.AITargetingMode=none` on all but the first super weapon with
+  for :tag:`SW.AITargeting`. To restore previous behavior, manually set
+  :tag:`SW.AITargeting=none` on all but the first super weapon with
   :tag:`Type=IronCurtain`.
 
   :tag:`DeployToLand=yes` units will only turn towards :tag:`DeployDir` if they
