@@ -129,7 +129,7 @@ With :game:`Ares` it is possible to use super weapons that are not tied to a
 building that provides them. Instead, the always granted super weapon will
 become immediately.
 
-This setting still respects :tag:`AuxBuilding`, :tag:`SW.AuxBuidings`,
+This setting still respects :tag:`AuxBuilding`, :tag:`SW.AuxBuildings`,
 :tag:`SW.NegBuildings`, :tag:`SW.ForbiddenHouses`, :tag:`SW.RequiredHouses`,
 :tag:`SW.AllowPlayer` and :tag:`SW.AllowAI`.
 
