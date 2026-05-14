@@ -129,7 +129,7 @@ With Ares it is possible to use super weapons that are not tied to a
 building that provides them. Instead, the always granted super weapon will
 become immediately.
 
-This setting still respects AuxBuilding, SW.AuxBuidings,
+This setting still respects AuxBuilding, SW.AuxBuildings,
 SW.NegBuildings, SW.ForbiddenHouses, SW.RequiredHouses,
 SW.AllowPlayer and SW.AllowAI.
 
