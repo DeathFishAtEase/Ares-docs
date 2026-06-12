@@ -8,7 +8,7 @@ Factories and Cloning
 Different factories for units (Kennels)
 ```````````````````````````````````````
 
-:tagdef:`[InfantryOrVehicle]BuiltAt=list of BuildingTypes`
+:tagdef:`[TechnoType]BuiltAt=list of BuildingTypes`
   Units will be kicked out of the first not-busy building the house owns that is
   mentioned in this list. If no :type:`BuildingType` is set, all factories that
   can produce this unit will be checked. Defaults to :value:`none`.
